@@ -75,7 +75,7 @@ m.band[m.band == 5] <- mean(csv.D$very.close)
 
 ## Step 5: perform moving window analysis using function "focal {raster}" with parameters:
 r = raster("TestData/test-variable.tif") # raster layer with numerical habitat variable (e.g. quality index)
-r[c(-127,128)] <- NA # replace NA values -127/128 with NA
+r[c(-127,128)] <- NA # replace NA values "-127/128" with "NA" to avoid error
 w = m.band # banded weights matrix is used as moving window
 fun = max # focal pixel takes weighted maximum value of habitat variable within moving window
 
