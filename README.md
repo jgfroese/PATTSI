@@ -4,7 +4,7 @@ Spatial PATTern SuItability analysis
 © 2016, Jens G. Froese (jens.froese@uq.net.au)
 
 ## Description
-This R scipt describes a methodology for measuring and relating spatial patterns of habitat variables to their suitability for a given species response (e.g. presence, abundance, habitat suitability etc.)
+This R script describes a methodology for measuring and relating spatial patterns of habitat variables to their suitability for a given species response (e.g. presence, abundance, habitat suitability etc.)
 
 ---
 PATTSI requires an **input raster layer (.TIFF)** describing the spatial distribution of a given habitat variable. This can be a mapped, remotely-sensed or modelled description of the habitat variable.
